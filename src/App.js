@@ -26,7 +26,7 @@ function App() {
     };
 
     fetchData();
-  });
+  }, []);
   const previousQuestion = () => {
     setCurrentQuestionIndex(currentQuestionIndex - 1);
   };
